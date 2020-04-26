@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
   config.vm.provider :vbox do |vbox|
   config.vm.box_version = "=1702.01"
-  libvirt.memory = 3072
+  vbox.memory = 3072
   end
 
 # Centos 1
