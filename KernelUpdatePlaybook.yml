@@ -3,7 +3,7 @@
 #- remote_user: vagrant
   become: true
   tasks:
-    - name: Update KERNEL in 3 CentOS for IBM demonstration
+    - name: Update KERNEL in 3 CentOS for DELL demonstration
       yum:
         name: "kernel"
         state: latest
