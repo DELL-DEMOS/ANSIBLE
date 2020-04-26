@@ -12,20 +12,20 @@ Vagrant.configure("2") do |config|
 
 # Centos 1
   config.vm.define "linux1" do |linux1|
-    c1.vm.hostname = "linux1"
-    c1.vm.box = "centos/7"
+    linux1.vm.hostname = "linux1"
+    linux1.vm.box = "centos/7"
   end
 
 # Centos 2
   config.vm.define "linux2" do |linux2|
-    c2.vm.hostname = "linux2"
-    c2.vm.box = "centos/7"
+    linux2.vm.hostname = "linux2"
+    linux2.vm.box = "centos/7"
   end
 
 # Centos 3
   config.vm.define "linux3" do |linux3|
-    c3.vm.hostname = "linux3"
-    c3.vm.box = "centos/7"
+    linux3.vm.hostname = "linux3"
+    linux3.vm.box = "centos/7"
   end
 
 # Ansible Playbook to do the dirty job
