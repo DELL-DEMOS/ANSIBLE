@@ -1,5 +1,5 @@
 ---
-- hosts: c1,c2,c3
+- hosts: linux1,linux2,linux3
 #- remote_user: vagrant
   become: true
   tasks:
