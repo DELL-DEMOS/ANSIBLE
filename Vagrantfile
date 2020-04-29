@@ -6,7 +6,7 @@
 Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
   config.vm.provider :vbox do |vbox|
-  config.vm.box_version = "=1702.01"
+  config.vm.box_version = "=1811.01"
   vbox.memory = 3072
   end
 
